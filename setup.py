@@ -10,5 +10,5 @@ setup(name='stratum',
       url='http://blog.bitcoin.cz/stratum',
       packages=['stratum',],
       zip_safe=False,
-      install_requires=['twisted', 'ecdsa', 'autobahn',]
+      install_requires=['twisted', 'ecdsa', 'autobahn<0.7.0',]
      )
